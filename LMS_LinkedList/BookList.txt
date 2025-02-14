@@ -1,0 +1,6 @@
+0; bCode: B01; title: The noon; quanlity: 10; lended: 0; price: 5.200; value: 52.000
+1; bCode: B02; title: River; quanlity: 5; lended: 0; price: 4.300; value: 21.500
+2; bCode: B03; title: Morning; quanlity: 12; lended: 0; price: 25.100; value: 301.200
+3; bCode: B04; title: Southern; quanlity: 9; lended: 0; price: 5.200; value: 46.800
+4; bCode: B05; title: Physics; quanlity: 7; lended: 0; price: 15.400; value: 107.800
+5; bCode: B07; title: Biology; quanlity: 11; lended: 0; price: 12.200; value: 134.200

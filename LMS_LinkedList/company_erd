@@ -1,0 +1,31 @@
+digraph Company_ERD {
+	rankdir=LR
+	Salesperson [label="Salesperson
+(SalespersonID)" shape=box]
+	Customer [label="Customer
+(CustomerID)" shape=box]
+	Order [label="Order
+(OrderID)" shape=box]
+	Item [label="Item
+(ItemID)" shape=box]
+	Part [label="Part
+(PartID)" shape=box]
+	Employee [label="Employee
+(EmployeeID)" shape=box]
+	Supplier [label="Supplier
+(SupplierID)" shape=box]
+	Salesperson -> Salesperson [label="manages
+(0..n to 1)"]
+	Salesperson -> Customer [label="manages
+(1 to 0..n)"]
+	Customer -> Order [label="places
+(1 to 0..n)"]
+	Order -> Item [label="contains
+(0..n to 1..n)"]
+	Item -> Part [label="assembled from
+(0..n to 1..n)"]
+	Employee -> Item [label="assembles
+(0..n to 1..n)"]
+	Supplier -> Part [label="supplies
+(0..n to 1..n)"]
+}
